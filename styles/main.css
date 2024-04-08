@@ -1,0 +1,120 @@
+/* system design */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+
+    /* primary colors */
+
+    --green: hsl(75, 94%, 57%);
+
+    /* neutral colors */
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+
+    /* text configuration */
+    --body-font: "Inter";
+    ---body-font-weight: 400;
+    --body-font-size: 0.875rem;
+
+    --title-font: "Inter";
+    --title-font-weight: 700;
+
+    --subtitle-font-weight: 600;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--off-black);
+    font-family: var(--body-font);
+    font-size: var(--body-font-size);
+    font-weight: var(---body-font-weight);
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    color: var(--white);
+}
+
+.card {
+    width: 23.125rem;
+    height: 36.25rem;
+    background-color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.938rem;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.card__image {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    margin: 1.25rem
+}
+
+.card__title {
+    font-weight: var(--title-font-weight);
+    margin-bottom: 0.625rem;
+}
+
+.card__subtitle {
+    color: var(--green);
+    font-weight: var(--subtitle-font-weight);
+    margin-bottom: 1.5rem;
+}
+
+.card__info{
+    margin-bottom: 0.875rem;
+}
+.card__content {
+    width: 100%;
+    text-align: center;
+}
+
+.card__list {
+    list-style: none;
+    background-color: var(--grey);
+    font-weight: var(--subtitle-font-weight);
+    padding: 0.75rem;
+    margin: 0.75rem;
+    border-radius: 0.313rem;
+}
+
+.card__link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.attribution a {
+    color: var(--green);
+}
+
+.attribution__break {
+    display: none;
+}
+/* media query */
+
+@media(max-width:768px){
+
+    .card{
+        width: 20.125rem;
+        margin: auto;
+    }
+
+    .attribution {
+        margin-top: 2rem;
+        text-align: justify;
+    }
+
+    .attribution__break {
+        display: initial;
+    }
+}
