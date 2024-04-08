@@ -14,8 +14,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
     - [Built with](#built-with)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -31,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [See the repository](https://github.com/ikitamalarose/social-links-profile-main-challenge.git)
+- Live Site URL: [Go to the site](https://social-links-profile-main-challenge.vercel.app/)
 
 ## My process
 
