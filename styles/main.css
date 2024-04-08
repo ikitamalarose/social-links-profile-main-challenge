@@ -71,9 +71,10 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.card__info{
+.card__info {
     margin-bottom: 0.875rem;
 }
+
 .card__content {
     width: 100%;
     text-align: center;
@@ -93,6 +94,10 @@ body {
     color: var(--white);
 }
 
+.card__link:hover {
+    color: var(--green);
+}
+
 .attribution a {
     color: var(--green);
 }
@@ -100,11 +105,12 @@ body {
 .attribution__break {
     display: none;
 }
+
 /* media query */
 
-@media(max-width:768px){
+@media(max-width:768px) {
 
-    .card{
+    .card {
         width: 20.125rem;
         margin: auto;
     }
